@@ -1,0 +1,28 @@
+
+@font-face {
+    font-family: "OpenSans";
+    src: url('../fonts/OpenSans-Regular.ttf');
+}
+body{  font-family: "OpenSans"; }
+
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+ 
+::-webkit-scrollbar-track {
+
+    background: #ffbe00;
+
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background:#fff;
+}
+
+
+a{ font-size: 14px; text-decoration: none; text-transform: capitalize; }
+a:hover{ text-decoration: none; }
+h2,h1,h3,h4,h5,h6{ margin:0; padding:0; }
+ul li{ list-style: none; }
